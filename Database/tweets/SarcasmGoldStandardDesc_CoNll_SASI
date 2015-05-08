@@ -1,0 +1,11 @@
+SASI_annotatedDataStandardRelease.xls contains the gold standard data we used for the human evaluation in both papers:
+[*] ICWSM - A Great Catchy Name: Semi-Supervised Recognition of Sarcastic Sentences in Product Reviews, Oren Tsur, Dmitry Davidov and Ari Rappoport. Proceeding of AAAI Conference on Weblogs and Social Media - ICWSM-10, 2010, 
+and 
+[**] Semi-Supervised Recognition of Sarcastic Sentences in Twitter and Amazon, Dmitry Davidov*, Oren Tsur* and Ari Rappoport. Proceeding of Computational Natural Language Learning (CoNLL), 2010
+
+The file contain two sheets, one for the Amazon data (used in paper [*]) and one for the twitter data (used in paper [**]). 
+Each sheet has 5 titled colomns: Sentence, MT1, MT2, MT3 and SASI. The Sentence col contains the sentence itself, MT1-3 are the mechanichal turk annotations for each sentence and SASI presents the SASI sarcasm score. 
+
+Note that the 1-5 scale was collapsed to a binary classification. See papers for discussion of the evaluation method and the way the mapping was done. 
+
+Citation of the appropriate paper will be appreciated. That is, if you use the Amazon data please cite paper [*] and if you use the Twitter data please cite paper [**]
